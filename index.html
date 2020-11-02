@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <form action="">
+    <div id="story">
+      <textarea name="" id="storyInput" placeholder="Insert Story Here" ></textarea>
+    </div>
+    <br />
+    <input type="checkbox" name="speech" id="nounCheckbox" value="noun" >Noun
+    <input type="checkbox" name="speech" id="verbCheckbox" value="verb">Verb
+    <input type="checkbox" name="speech" id="adjectiveCheckbox" value="adjective">Adjective
+    <input type="checkbox" name="speech" id="placeCheckbox" value="place">Place
+    <br />
+    <label for="nounInput" id="nounLabel">Noun:</label>
+    <input type="text" id="nounInput">
+    <br />
+    <label for="verbInput" id="verbLabel">Verb:</label>
+    <input type="text" id="verbInput">
+    <br />
+    <label for="adjectiveInput" id="adjectiveLabel">Adjective:</label>
+    <input type="text" id="adjectiveInput">
+    <br />
+    <label for="placeInput" id="placeLabel">Place:</label>
+    <input type="text" id="placeInput">
+    <br />
+    <button id="genBtn">Generate</button>
+  </form>
+  <script src="app.js"></script>
+</body>
+</html>

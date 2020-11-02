@@ -1,0 +1,15 @@
+#story textarea{
+  
+  outline: none;
+  font-size: 30px;
+  word-wrap: break-word;
+  width: 100%;
+  text-align: center;
+}
+
+#story{
+  width: 80%;
+  height: 1%;
+  margin: 0 auto;
+}
+
